@@ -1,0 +1,42 @@
+# 🔐 Dipendenze Node
+node_modules/
+
+# 📦 File di build (se in futuro userai bundler tipo Vite/Webpack)
+dist/
+build/
+
+# ⚙️ Variabili ambiente
+.env
+.env.local
+.env.*.local
+
+# 🧪 Log
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 🧠 VS Code (ma NON le configurazioni del progetto!)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# 💻 Altri IDE
+.idea/
+
+# 🖥️ Sistema operativo
+.DS_Store
+Thumbs.db
+
+# 🧹 Cache strumenti
+.eslintcache
+.prettiercache
+
+# 📊 Coverage (se aggiungi test)
+coverage/
+
+# 📁 File temporanei
+tmp/
+temp/
+.cache/
+
